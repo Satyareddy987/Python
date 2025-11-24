@@ -1,0 +1,8 @@
+import numpy as np
+array=np.array([1, 2, 3, 4, 5])
+
+if np.all(array):
+     print("None of the elements in the array is zero.")
+
+else:
+  print("There is at least one zero element in the array.")
