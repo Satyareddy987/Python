@@ -1,0 +1,27 @@
+import numpy as np
+
+#Define array
+
+arr = np.array([3, 7, 1, 9, 5, 3, 7, 1, 8])
+
+# Find indices of maximum and minimum numbers
+
+max_index= np.argmax(arr)
+
+min_index= np.argmin(arr)
+
+print("Index of maximum number:", max_index)
+
+print("Index of minimum number:", min_index)
+
+#Additional NumPy operations
+
+print("Maximum value:", np.max(arr))
+
+print("Minimum value:", np.min(arr))
+
+print("Unique elements:", np.unique(arr))
+
+print("Bincount of elements:", np.bincount(arr))
+
+print("Array representation using repr():", repr (arr))
