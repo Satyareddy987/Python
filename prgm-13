@@ -1,0 +1,13 @@
+import numpy as np
+
+arr =  np.array([3, 7, 1, 9, 5, 3, 7, 1, 8])
+
+num = 5
+
+less_than_num = arr[arr < num]
+
+greater_than_num= arr[arr > num]
+
+print("Numbers less than", num, ":", less_than_num)
+
+print("Numbers greater than", num, ":", greater_than_num)
